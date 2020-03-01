@@ -1,0 +1,56 @@
+// No.1 Newton Second Law //
+
+INPUT mass is 600
+READ and SAVE mass
+
+INPUT acceleration is 2
+READ and SAVE acceleration
+
+COMPUTE mass TIMES acceleration
+SAVE previous COMPUTATION RESULT
+SHOW COMPUTATION RESULT
+
+
+
+// No.2 Tahun Kabisat //
+
+INPUT tahun is tahunInput
+
+READ and SAVE tahunInput
+IF tahunInput mod 4 equal 0
+    DISPLAY "tahunInput" adalah tahun Kabisat
+ELSE
+    DISPLAY "tahunInput" bukan tahun Kabisat
+END IF    
+
+
+
+
+// No.3 Laundry Day //
+
+SET total TO zero
+DO
+    READ Clothing 
+    IF Clothing < 20 THEN
+        INCREMENT total
+    END IF
+WHILE Clothing >= 20 THEN
+PRINT total
+ENDWHILE
+   
+
+
+
+// No.4 Periksa Kuku //
+
+SET totalSiswa TO 40
+SET count is 0
+
+    DO
+    INCREMENT count
+    IF count is true THEN
+        DISPLAY kuku panjang, siswa/siswi harus dihukum
+    ELSE
+        DISPLAY kuku pendek, siswa/siwi harus dipuji
+    WHILE count < totalSiswa
+    ENDWHILE
